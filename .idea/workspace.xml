@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76403480-c6ed-4772-82ef-fa98e0a304db" name="Changes" comment="test2">
-      <change afterPath="$PROJECT_DIR$/Acceuil.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Acceuil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Acceuil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acceuil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Acceuil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Acceuil.html" beforeDir="false" afterPath="$PROJECT_DIR$/ODD.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +57,14 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mathi/dev/ProjetWebS4",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/LDLC/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.15.0/node",
+    "nodejs_interpreter_path": "C:/Users/mathi/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.15.0/node",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -83,6 +85,7 @@
       <updated>1745661022888</updated>
       <workItem from="1745661023859" duration="2789000" />
       <workItem from="1745837513850" duration="2145000" />
+      <workItem from="1745843880079" duration="1374000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
