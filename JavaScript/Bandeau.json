@@ -1,0 +1,259 @@
+{
+  "events": [
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd1-eliminer-la-pauvrete-sous-toutes-ses-formes-et-partout-dans-le-monde'>Pas de Pauvreté</a>",
+        "text":"<p> Éliminer la pauvreté sous toutes ses formes et partout dans le monde</p>"
+      },
+      "media": {
+        "url":"../Images/odd1.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/ODDs.png"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd2-eliminer-la-faim-assurer-la-securite-alimentaire-ameliorer-la-nutrition-et'>Faim Zéro</a>",
+        "text":"<p> Éliminer la faim, assurer la sécurité alimentaire, améliorer la nutrition et promouvoir une agriculture durable</p>"
+      },
+      "media": {
+        "url":"../Images/odd2.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd2.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd3-donner-aux-individus-les-moyens-de-vivre-une-vie-saine-et-promouvoir-le'>Bonne Santé et Bien Etre</a>",
+        "text":"<p> Donner aux individus les moyens de vivre une vie saine et promouvoir le bien-être à tous les âges</p>"
+      },
+      "media": {
+        "url":"../Images/odd3.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd3.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd4-veiller-a-ce-que-tous-puissent-suivre-une-education-de-qualite-dans-des'>Education de Qualité</a>",
+        "text":"<p> Veiller à ce que tous puissent suivre une éducation de qualité dans des conditions d’équité et promouvoir les possibilités d’apprentissage tout au long de la vie</p>"
+      },
+      "media": {
+        "url":"../Images/odd4.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd4.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les'>Egalité entre les Sexes</a>",
+        "text":"<p> Réaliser l’égalité des sexes et autonomiser toutes les femmes et les filles</p>"
+      },
+      "media": {
+        "url":"../Images/odd5.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd5.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd6-garantir-l-acces-de-tous-a-l-eau-et-a-l-assainissement-et-assurer-une'>Eau propre et Assainissement</a>",
+        "text":"<p> Garantir l’accès de tous à l’eau et à l’assainissement et assurer une gestion durable des ressources en eau</p>"
+      },
+      "media": {
+        "url":"../Images/odd6.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd6.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd7-garantir-l-acces-de-tous-a-des-services-energetiques-fiables-durables-et'>Energie Propre et d'un Cout Abordable</a>",
+        "text":"<p> Garantir l’accès de tous à des services énergétiques fiables, durables et modernes, à un coût abordable</p>"
+      },
+      "media": {
+        "url":"../Images/odd7.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd7.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd8-promouvoir-une-croissance-economique-soutenue-partagee-et-durable-le-plein'>Travail Décent et Croissance Economique</a>",
+        "text":"<p> Promouvoir une croissance économique soutenue, partagée et durable, le plein emploi productif et un travail décent pour tous</p>"
+      },
+      "media": {
+        "url":"../Images/odd8.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd8.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd9-mettre-en-place-une-infrastructure-resiliente-promouvoir-une'>Industrie Innovation et Infrastructure</a>",
+        "text":"<p>Mettre en place une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l’innovation</p>"
+      },
+      "media": {
+        "url":"../Images/odd9.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd9.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd10-reduire-les-inegalites-entre-les-pays-et-en-leur-sein'>Inégalités Réduites</a>",
+        "text":"<p>Réduire les inégalités entre les pays et en leur sein</p>"
+      },
+      "media": {
+        "url":"../Images/odd10.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/ODDs.png"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd11-faire-en-sorte-que-les-villes-et-les-etablissements-humains-soient'>Ville et Communautés Durables</a>",
+        "text":"<p>Faire en sorte que les villes et les établissements humains soient ouverts à tous, sûrs, résilients et durables</p>"
+      },
+      "media": {
+        "url":"../Images/odd11.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd11.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd12-etablir-des-modes-de-consommation-et-de-production-durables'>Consommation et Production Responsable</a>",
+        "text":"<p>Établir des modes de consommation et de production durables</p>"
+      },
+      "media": {
+        "url":"../Images/odd12.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd12.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd13-prendre-d-urgence-des-mesures-pour-lutter-contre-les-changements'>Mesures contre les Changements Climatiques</a>",
+        "text":"<p>Prendre d’urgence des mesures pour lutter contre les changements climatiques et leurs répercussions</p>"
+      },
+      "media": {
+        "url":"../Images/odd13.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd13.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd14-conserver-et-exploiter-de-maniere-durable-les-oceans-les-mers-et-les'>Vie Aquatique</a>",
+        "text":"<p>Conserver et exploiter de manière durable les océans, les mers et les ressources marines aux fins du développement durable</p>"
+      },
+      "media": {
+        "url":"../Images/odd14.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd14.webp"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd15-preserver-et-restaurer-les-ecosystemes-terrestres'>Vie Terrestre</a>",
+        "text":"<p>Préserver et restaurer les écosystèmes terrestres</p>"
+      },
+      "media": {
+        "url":"../Images/odd15.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd15.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd16-promouvoir-l-avenement-de-societes-pacifiques-et-ouvertes-aux-fins-du'>Paix, Justice et Institutions Efficaces</a>",
+        "text":"<p>Préserver et restaurer les écosystèmes terrestres</p>"
+      },
+      "media": {
+        "url":"../Images/odd16.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd16.jpg"
+      }
+    },
+    {
+      "start_date": { "year":"", "month":"", "day":"" },
+      "text": {
+        "headline":"<a href = 'https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd17-partenariats-pour-la-realisation-des-objectifs'>Partenariat pour la Réalisation des Objectifs</a>",
+        "text":"<p>Partenariats pour la réalisation des objectifs</p>"
+      },
+      "media": {
+        "url":"../Images/odd17.png",
+        "caption":"Photo de lancement",
+        "credit":"© Notre équipe"
+      },
+      "background": {
+        "url": "../Images/imgOdd17.jpg"
+      }
+    }
+  ]
+}

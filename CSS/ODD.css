@@ -53,6 +53,9 @@ section {
     max-width: 1000px;
     margin: auto;
 }
+#timeline-section {
+    padding: 0;
+}
 
 section h1 {
     color: #2e8b57; /* Vert moyen */
@@ -105,12 +108,66 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Div pour encadrer les sous-sections */
-div {
-    background-color: #ffffff;
-    padding: 20px;
-    margin-top: 20px;
-    border-left: 5px solid #2e8b57;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-    border-radius: 8px;
+
+
+
+
+/* BANDEAU ODDs */
+/* Cacher zones temporelles visibles */
+#timeline-embed .tl-timeaxis,
+#timeline-embed .tl-timeaxis-background,
+#timeline-embed .tl-timeaxis-tick,
+#timeline-embed .tl-timeaxis-label,
+#timeline-embed .tl-date,
+#timeline-embed .tl-slidenav,
+#timeline-embed .tl-timenav,
+#timeline-embed .tl-timenav-background,
+#timeline-embed .tl-timenav-wrapper,
+#timeline-embed .tl-timenav-slider,
+#timeline-embed .tl-timenav-content-container,
+#timeline-embed .tl-timenav-content,
+#timeline-embed .tl-timenav-interval-background,
+#timeline-embed .tl-timenav-interval-marker,
+#timeline-embed .tl-timenav-axis,
+#timeline-embed .tl-menubar,
+#timeline-embed .tl-message {
+    display: none !important;
 }
+/* Cacher la start date */
+#timeline-embed .tl-slide .tl-slide-content .tl-headline-date,
+#timeline-embed .tl-slide .tl-headline-date,
+#timeline-embed .tl-slide .tl-slide-title .tl-text-headline-date,
+#timeline-embed .tl-slide .tl-text-headline-date {
+    display: none !important;
+    height: 0 !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+}
+
+/* Cacher légende/credits sous les images */
+#timeline-embed .tl-slide .tl-media .tl-caption,
+#timeline-embed .tl-slide .tl-media .tl-credit {
+    display: none !important;
+    height: 0 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+
+/* Réduction stricte de la hauteur du conteneur de navigation */
+#timeline-embed .tl-storyslider {
+    bottom: 0 !important;
+}
+
+/* Réinitialiser marges */
+#timeline-embed .tl-embed,
+#timeline-embed .tl-embed .tl-embed-inner,
+#timeline-embed .tl-storyslider,
+#timeline-embed .tl-storyslider .slider-container {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100% !important;
+    bottom: 0 !important;
+    top: 0 !important;
+}
+
+

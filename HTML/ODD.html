@@ -5,11 +5,15 @@
     <title>Projet Web S4 - ODD </title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractères à UTF-8-->
     <link rel="stylesheet" href="../CSS/ODD.css">
+    <script src="../JavaScript/BandeauOdds.js" defer></script>
+    <link rel="stylesheet"
+          href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 </head><!-- Fin de la balise d'entête -->
 
 <body><!-- Début du code de la page web -->
 <header>
-    <a href = "https://www.greenit.fr/"> <img src = "../Images/ODDs.png" alt = "GreenIT_img"></a>
+    <a href = "https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/?"> <img src = "../Images/ODDs.png" alt = "ODDs_img"></a>
     <nav>
         <a href="./Acceuil.html">Acceuil</a>
         <a href="./ODD.html">ODD</a>
@@ -27,26 +31,11 @@
         Les pays se sont engagés à accélérer les progrès pour ceux qui sont le plus en retard. Les ODD sont conçus pour mettre fin à la pauvreté,  à la faim, au sida et à la discrimination à l’égard des femmes et des filles.
 
         La créativité, le savoir-faire, la technologie et les ressources financières de toute la société seront nécessaires pour atteindre les Objectifs dans tous les contextes</p>
-    <h2>Les 17 ODD :</h2>
-    <ol>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd1-eliminer-la-pauvrete-sous-toutes-ses-formes-et-partout-dans-le-monde">Pas de Pauvreté</a></li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd2-eliminer-la-faim-assurer-la-securite-alimentaire-ameliorer-la-nutrition-et" >Faim Zéro</a></li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd3-donner-aux-individus-les-moyens-de-vivre-une-vie-saine-et-promouvoir-le">Bonne santé et bien être</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd4-veiller-a-ce-que-tous-puissent-suivre-une-education-de-qualite-dans-des"> Education de qualité</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les"> Égalité entre les sexes</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd6-garantir-l-acces-de-tous-a-l-eau-et-a-l-assainissement-et-assurer-une">Eau propre et assainissement</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd7-garantir-l-acces-de-tous-a-des-services-energetiques-fiables-durables-et">Energies propres et d'un coup abordable</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd8-promouvoir-une-croissance-economique-soutenue-partagee-et-durable-le-plein">Travail décent et croissance économique</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd9-mettre-en-place-une-infrastructure-resiliente-promouvoir-une">Industrie, innovation et infrastructure</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd10-reduire-les-inegalites-entre-les-pays-et-en-leur-sein">Inégalités réduites</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd11-faire-en-sorte-que-les-villes-et-les-etablissements-humains-soient">Villes et communautés durables</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd12-etablir-des-modes-de-consommation-et-de-production-durables">Consommation et production responsables</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd13-prendre-d-urgence-des-mesures-pour-lutter-contre-les-changements">Mesures relatives à la lutte contre les changements climatiques</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd14-conserver-et-exploiter-de-maniere-durable-les-oceans-les-mers-et-les">Vie aquatique</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd15-preserver-et-restaurer-les-ecosystemes-terrestres">Vie terrestre</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd16-promouvoir-l-avenement-de-societes-pacifiques-et-ouvertes-aux-fins-du">Paix, justice et institutions efficaces</a> </li>
-        <li><a class="odds" href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd17-partenariats-pour-la-realisation-des-objectifs">Partenariats pour la réalisation des objectifs</a> </li>
-    </ol>
+    <section id="timeline-section" style="width:100%; height:400px;">
+        <h2 >Les 17 ODD :</h2>
+        <div id="timeline-embed"></div>
+    </section>
+
 </section>
 
 <section>
@@ -54,25 +43,6 @@
 
     <p>Le quatrième objectif vise à garantir l’accès à tous et toutes à une éducation équitable, gratuite et de qualité à travers toutes les étapes de la vie, en éliminant notamment les disparités entre les sexes et les revenus. Il met également l’accent sur l’acquisition de compétences fondamentales et de niveau supérieur pour vivre dans une société durable. L’ODD4 appelle aussi à la construction et à l’amélioration des infrastructures éducatives, à l’augmentation du nombre de bourses d’études supérieures octroyées aux pays en développement et du nombre d’enseignants qualifiés dans ces pays.</p>
 
-    <h2>Impact énergétique sur le développement web</h2>
-    <div>
-        <h3>Pourquoi les sites web ont-ils une empreinte carbone ?</h3>
-        <ul>
-            <li>Chaque site web a sa propre empreinte carbone, c'est-àdire la quantité d'émissions de gaz à effet de serre générée par le processus de création et de maintenance de ce site web.</li>
-            <li>L'empreinte carbone de votre site web correspond à la quantité d'émissions de CO2 qu'il créait au cours de sa durée de vie.</li>
-            <li>Plus l'empreinte carbone de votre site Web est importante, plus la quantité de
-                <a href="https://fr.wikipedia.org/wiki/Gaz_%C3%A0_effet_de_serre"> gaz à effet de serre</a>
-                libérée dans l'atmosphère est élevée.</li>
-        </ul>
-    </div>
-    <div>
-        <h3>Que représente l'empreinte carbone d'une page web ?</h3>
-        <ul>
-            <li>Naviguer en ligne et visiter des sites internet demande de l'énergie électrique. Cette demande a un impact écologique important.</li>
-            <li>En moyenne, une page web consultée entraîne la production de 1,76 grammes de CO2, et 7 grammes pour une requête sur Google.</li>
-            <li>La conception et le nombre de visite du site web influencent en grande partie le poids de ses émissions carbone.</li>
-        </ul>
-    </div>
 </section>
 
 
