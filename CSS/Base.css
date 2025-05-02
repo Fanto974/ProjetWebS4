@@ -38,6 +38,10 @@ nav a:hover {
     background-color: lightseagreen;
 }
 
+nav a.active {
+    text-decoration: underline;
+}
+
 section {
     padding: 40px 20px;
     max-width: 1000px;

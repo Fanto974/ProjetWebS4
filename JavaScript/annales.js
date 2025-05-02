@@ -24,3 +24,6 @@ function filterTable() {
 yearFilter.addEventListener("change", filterTable);
 subjectFilter.addEventListener("change", filterTable);
 codeFilter.addEventListener("input", filterTable);
+
+
+
