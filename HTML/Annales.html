@@ -5,6 +5,8 @@
     <title>Projet Web S4 - Annales </title> <!-- Indique au navigateur quel titre vous donnez à votre page -->
     <meta charset="UTF-8"> <!-- précise l'encodage des caractères à UTF-8-->
     <link rel="stylesheet" href="../CSS/Annales.css">
+    <link rel="stylesheet" href="../CSS/Base.css">
+    <script defer src="../JavaScript/annales.js"></script>
 </head><!-- Fin de la balise d'entête -->
 
 <body><!-- Début du code de la page web -->
@@ -17,6 +19,58 @@
         <a href="./Contact.html">Contacts</a>
     </nav>
 </header>
+
+<h1>Annales d’évaluations</h1>
+
+<!-- Filtres -->
+<div class="filters">
+    <label>Année :
+        <select id="filter-year">
+            <option value="">Toutes</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select>
+    </label>
+
+    <label>Matière :
+        <select id="filter-subject">
+            <option value="">Toutes</option>
+            <option value="Mathématiques">Mathématiques</option>
+            <option value="Informatique">Informatique</option>
+        </select>
+    </label>
+
+    <label>Code :
+        <input type="text" id="filter-code" placeholder="ex: TI402">
+    </label>
+</div>
+
+<!-- Tableau -->
+<table id="annales-table">
+    <thead>
+    <tr>
+        <th>Année</th>
+        <th>Matière</th>
+        <th>Code</th>
+        <th>Téléchargement</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>2023</td>
+        <td>Mathématiques</td>
+        <td>MA201</td>
+        <td><a href="#">Voir PDF</a></td>
+    </tr>
+    <tr>
+        <td>2024</td>
+        <td>Informatique</td>
+        <td>TI402</td>
+        <td><a href="#">Voir PDF</a></td>
+    </tr>
+    <!-- Ajoute d'autres lignes ici -->
+    </tbody>
+</table>
 
 <footer>
     <p>©️2025 Buclon Mathis / Duriaud Thomas.</p>

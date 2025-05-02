@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76403480-c6ed-4772-82ef-fa98e0a304db" name="Changes" comment="test2">
-      <change afterPath="$PROJECT_DIR$/JavaScript/Bandeau.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/BandeauOdds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/Base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/annales.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Acceuil.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Acceuil.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Annales.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Annales.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/Contact.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/ODD.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/ODD.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Acceuil.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Acceuil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Annales.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Annales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/ODD.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/ODD.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Images/ODD4_Icone.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +25,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="package.json" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -74,9 +74,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/LDLC/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.15.0/node_modules/npm/package.json",
+    "nodejs_interpreter_path": "C:/Users/mathi/AppData/Roaming/JetBrains/WebStorm2025.1/node/versions/22.15.0/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -99,6 +99,7 @@
       <workItem from="1745843880079" duration="5974000" />
       <workItem from="1745866528919" duration="4240000" />
       <workItem from="1746013562673" duration="20849000" />
+      <workItem from="1746174466782" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
