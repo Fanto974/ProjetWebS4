@@ -3,6 +3,12 @@ header {
     background-color: #2e8b57;
 }
 
+header img:hover {
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    filter: brightness(70%);
+    transform: scale(1.1);
+}
+
 #timeline-section {
     padding: 0;
 }
