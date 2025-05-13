@@ -12,9 +12,9 @@
 
 <body><!-- Début du code de la page web -->
 <header>
-    <a href = "https://www.greenit.fr/"> <img src = "../Images/pleinObjEdu.jpg" alt = "GreenIT_img" width="1200" height="200"></a>
+    <a href = "https://www.greenit.fr/"> <img src = "../Images/pleinObjEdu.jpg" alt = "GreenIT_img"></a>
     <nav>
-        <a href="./Acceuil.html" id="accueilLink">Acceuil</a>
+        <a href="./Acceuil.html" id="accueilLink">Accueil</a>
         <a href="./ODD.html" id="oddLink">ODD</a>
         <a href="./Annales.html" id="annalesLink">Annales</a>
         <a href="./Contact.html" id="contactLink">Contacts</a>
@@ -37,8 +37,18 @@
         <label>Matière :
             <select id="filter-subject">
                 <option value="">Toutes</option>
-                <option value="Mathématiques">Mathématiques</option>
-                <option value="Informatique">Informatique</option>
+                <option value="Canaux de Transmission">Canaux de Transmission</option>
+                <option value="Modélisation Mathématique">Modélisation Mathématique</option>
+                <option value="Bases De Données">Bases De Données</option>
+            </select>
+        </label>
+
+        <label>Type :
+            <select id="filter-type">
+                <option value="">Toutes</option>
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+                <option value="DE">DE</option>
             </select>
         </label>
 
@@ -53,22 +63,76 @@
         <tr>
             <th>Année</th>
             <th>Matière</th>
+            <th>Type</th>
             <th>Code</th>
-            <th>Téléchargement</th>
+            <th>Sujet</th>
+            <th>Correction</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>2023</td>
-            <td>Mathématiques</td>
-            <td>MA201</td>
-            <td><a href="#">Voir PDF</a></td>
+            <td>2024</td>
+            <td>Modélisation Mathématique</td>
+            <td>DE</td>
+            <td>SM401</td>
+            <td><a href="https://cdn.discordapp.com/attachments/851075522062843934/1257324301242073180/2324-SM401-DE.pdf?ex=681ea941&is=681d57c1&hm=d50a176f427bf09a69aa249d7eb0a63837c1361f85af3c4d49de062d126c73aa&">Voir PDF</a></td>
+            <td><a href="https://cdn.discordapp.com/attachments/851075522062843934/1257324366782267423/2324-SM401-DE-Solution.pdf?ex=681ea950&is=681d57d0&hm=e17a4a3e4214b7d4167aaed5f9aed2b0c977bc7033ddad3d0220d3254fd6a8a9&">Voir PDF</a> </td>
         </tr>
         <tr>
             <td>2024</td>
-            <td>Informatique</td>
-            <td>TI402</td>
-            <td><a href="#">Voir PDF</a></td>
+            <td>Canaux de Transmission</td>
+            <td>DE</td>
+            <td>TE403</td>
+            <td><a href="https://cdn.discordapp.com/attachments/1211405647476826194/1255156155752120320/2324-TE403-DE_Sujet.pdf?ex=68249dc3&is=68234c43&hm=9aa0632b3217f53c528f67d47428291e608830ff68c2d1a9c9c29fc3aa339b26&">Voir PDF</a></td>
+            <td><a href="https://cdn.discordapp.com/attachments/1211405647476826194/1255156483889565776/2324-TE403-DE_ElementsDeCorrection.pdf?ex=68249e11&is=68234c91&hm=fdccce131863ba8268e4304fdba20bae76a3580a3881f095e321073beed67813&">Voir PDF</a> </td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Canaux de Transmission</td>
+            <td>CC</td>
+            <td>TE403</td>
+            <td><a href="https://cdn.discordapp.com/attachments/1211405647476826194/1248375111640420403/CC1-1_-_TE403_-_Canaux_de_transmission___relecture_de_tentative___Moodle.pdf?ex=6824562c&is=682304ac&hm=136f1c0630a8840a2a0e843ad19bc2b32f4cdf529054314d478b2211bdb49fba&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Canaux de Transmission</td>
+            <td>CC</td>
+            <td>TE403</td>
+            <td><a href="https://cdn.discordapp.com/attachments/1211405647476826194/1248375112302985256/CC2-1_-_TE403_-_Canaux_de_transmission___relecture_de_tentative___Moodle.pdf?ex=6824562c&is=682304ac&hm=32d6d17c2342885a2629d31a20ce3aeb595315ddc5281756bb45229716a93aae&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Canaux de Transmission</td>
+            <td>CC</td>
+            <td>TE403</td>
+            <td><a href="https://cdn.discordapp.com/attachments/1211405647476826194/1248375119248621609/CC3-1_-_TE403_-_Canaux_de_transmission___relecture_de_tentative___Moodle.pdf?ex=6824562e&is=682304ae&hm=a72cad2f635fac301b81e7f5d2819f5d291c6ed883e59274530d0bd02962611f&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Bases De Données</td>
+            <td>CC</td>
+            <td>TI301</td>
+            <td><a href="https://cdn.discordapp.com/attachments/885608938580606996/1248373220135010384/CC1-1_-_TI301_-_Algorithmique_et_structure_de_donnees_2___relecture_de_tentative.pdf?ex=68245469&is=682302e9&hm=89572355222b317b47db839dcbc3a3e49d1a4c63499fc0533b0443e08c1bc524&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Bases De Données</td>
+            <td>CC</td>
+            <td>TI301</td>
+            <td><a href="https://cdn.discordapp.com/attachments/885608938580606996/1248373220449456221/CC2-1_-_TI301_-_Algorithmique_et_structure_de_donnees_2___relecture_de_tentative.pdf?ex=68245469&is=682302e9&hm=194e7e59c5dacb9422a64da24fd04d60d6b17ef8b3d3f5f3fefb53616e802559&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
+        </tr>
+        <tr>
+            <td>2024</td>
+            <td>Bases De Données</td>
+            <td>DE</td>
+            <td>TI301</td>
+            <td><a href="https://cdn.discordapp.com/attachments/885608938580606996/1315971711258202154/20220655-TI301-DE-11000000-2023-12-09.PDF?ex=682460a9&is=68230f29&hm=7eed6d2d1f21a242ea7521ef08c14a10ac94ae53c78b8c92438a0be315d6c3a4&">Voir PDF</a></td>
+            <td>Pas de Correction</td>
         </tr>
         <!-- Ajoute d'autres lignes ici -->
         </tbody>
