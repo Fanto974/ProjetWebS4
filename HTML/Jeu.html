@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Classe Clicker</title>
+    <link rel="stylesheet" href="../CSS/Jeu.css">
+    <script defer src="../JavaScript/Jeu.js"></script>
+</head>
+<body>
+<!-- Colonne gauche -->
+<div id="sidebar">
+    <div id="educationTracker">
+        <div id="progressVisual">
+            <div id="progressFill"></div>
+        </div>
+        <div id="totalPoints">0 pts</div>
+        <div id="educationLevel">Niveau : Débutant</div>
+    </div>
+</div>
+
+<!-- Colonne centrale -->
+<div id="mainContent">
+    <h1>🎓 Classe Clicker</h1>
+    <div id="educationPoints">Points d'éducation : 0</div>
+    <button onclick="educate()">👩‍🏫 Former un élève (+1)</button>
+
+    <div id="upgrades"></div>
+</div>
+
+<!-- Colonne droite -->
+<div id="metaUpgrades">
+    <h3>🔧 Méta-Améliorations</h3>
+    <div id="metaUpgradesList"></div>
+</div>
+</body>
+</html>

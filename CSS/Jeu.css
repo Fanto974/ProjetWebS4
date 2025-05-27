@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+/* Zone gauche */
+#sidebar {
+    width: 20%;
+    background: #d6eaf8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+#educationTracker {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+#progressVisual {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    border-left: 2px solid #3498db;
+}
+#progressFill {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, #3498db, #5dade2);
+    transition: height 0.3s ease;
+    z-index: 1;
+}
+#totalPoints, #educationLevel {
+    position: relative;
+    z-index: 2;
+    margin: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Zone centrale */
+#mainContent {
+    width: 60%;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f4f6fa;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+#educationPoints {
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #2980b9;
+}
+.upgrade {
+    background: #ecf0f1;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.upgrade-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Zone droite */
+#metaUpgrades {
+    width: 20%;
+    background: #eafaf1;
+    padding: 20px;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+}
+#metaUpgrades h3 {
+    margin-top: 0;
+}
+.meta-upgrade {
+    background: #d1f2eb;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
