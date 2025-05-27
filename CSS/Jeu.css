@@ -1,17 +1,19 @@
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Segoe UI', sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow: hidden; /* désactive le scroll global */
+}
+
+#gameContainer {
     display: flex;
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
-/* Zone gauche */
+
 #sidebar {
     width: 20%;
+    height: 68%;
     background: #d6eaf8;
     display: flex;
     flex-direction: column;
@@ -58,34 +60,18 @@ body {
     font-weight: bold;
 }
 
-/* Zone centrale */
 #mainContent {
     width: 60%;
     padding: 20px;
     overflow-y: auto;
     background-color: #f4f6fa;
     text-align: center;
+    height: 100%;
+    padding-bottom: 80px;
 }
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-#educationPoints {
+#educationPoints, #pts {
     font-size: 1.8em;
     margin: 20px 0;
-}
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    margin: 10px;
-    border: none;
-    border-radius: 8px;
-    background-color: #3498db;
-    color: white;
-    cursor: pointer;
-}
-button:hover {
-    background-color: #2980b9;
 }
 .upgrade {
     background: #ecf0f1;
@@ -100,7 +86,6 @@ button:hover {
     margin-bottom: 5px;
 }
 
-/* Zone droite */
 #metaUpgrades {
     width: 20%;
     background: #eafaf1;
@@ -116,4 +101,22 @@ button:hover {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 8px;
+}
+
+button {
+    background: deepskyblue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    filter: brightness(75%);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+#reset{
+    background: red;
 }

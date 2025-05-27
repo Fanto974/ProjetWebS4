@@ -1,6 +1,9 @@
 let educationPoints = 0;
 let totalEarnedPoints = 0;
 let productionMultiplier = 1;
+let pts = 0;
+
+let initialCost = {"manuel": 10,"enseignant": 100,"ecole": 500,"college": 2000,"lycee": 5000,"plateforme": 10000};
 
 let upgrades = {
     "manuel":     { name: "📘 Manuel scolaire", cost: 10, rate: 0.1, owned: 0 },
@@ -19,6 +22,7 @@ let metaUpgrades = {
 
 function updateDisplay() {
     document.getElementById("educationPoints").innerText = `Points d'éducation : ${educationPoints.toFixed(1)}`;
+    document.getElementById("pts").innerText = `Points/Sec : ${pts.toFixed(1)}`;
     document.getElementById("totalPoints").innerText = `${Math.floor(totalEarnedPoints)} pts`;
     updateProgressVisual();
     updateLevelText();
@@ -55,7 +59,7 @@ function buyUpgrade(key) {
     if (educationPoints >= upg.cost) {
         educationPoints -= upg.cost;
         upg.owned++;
-        upg.cost = Math.floor(upg.cost * 1.3);
+        upg.cost = Math.floor(upg.cost * 1.1);
         updateUpgrades();
         updateDisplay();
     }
@@ -73,6 +77,7 @@ function buyMetaUpgrade(key) {
 }
 
 function updateUpgrades() {
+    pts = 0;
     let container = document.getElementById("upgrades");
     container.innerHTML = "";
     for (let key in upgrades) {
@@ -85,6 +90,7 @@ function updateUpgrades() {
             <button onclick="buyUpgrade('${key}')">Acheter</button>
           </div>
         `;
+        pts += (upg.rate * upg.owned * productionMultiplier);
     }
 }
 
@@ -119,3 +125,103 @@ function autoGenerate() {
 updateUpgrades();
 updateMetaUpgrades();
 setInterval(autoGenerate, 100);
+
+function saveProgress() {
+    const gameState = {
+        educationPoints: educationPoints,
+        totalEarnedPoints: totalEarnedPoints,
+        productionMultiplier: productionMultiplier,
+        upgrades: {},
+        metaUpgrades: {}
+    };
+
+    // Sauvegarder l'état des upgrades
+    for (let key in upgrades) {
+        gameState.upgrades[key] = {
+            cost: upgrades[key].cost,
+            owned: upgrades[key].owned
+        };
+    }
+
+    // Sauvegarder l'état des méta-upgrades
+    for (let key in metaUpgrades) {
+        gameState.metaUpgrades[key] = {
+            purchased: metaUpgrades[key].purchased
+        };
+    }
+
+    localStorage.setItem('myGameSave', JSON.stringify(gameState));
+}
+
+function loadProgress() {
+    const savedState = localStorage.getItem('myGameSave');
+    if (savedState) {
+        const gameState = JSON.parse(savedState);
+
+        educationPoints = gameState.educationPoints || 0;
+        totalEarnedPoints = gameState.totalEarnedPoints || 0;
+        productionMultiplier = gameState.productionMultiplier || 1;
+
+        // Restaurer upgrades
+        if (gameState.upgrades) {
+            for (let key in gameState.upgrades) {
+                if (upgrades[key]) {
+                    upgrades[key].cost = gameState.upgrades[key].cost;
+                    upgrades[key].owned = gameState.upgrades[key].owned;
+                }
+            }
+        }
+
+        // Restaurer méta-upgrades
+        if (gameState.metaUpgrades) {
+            for (let key in gameState.metaUpgrades) {
+                if (metaUpgrades[key]) {
+                    metaUpgrades[key].purchased = gameState.metaUpgrades[key].purchased;
+                }
+            }
+        }
+
+        updateUpgrades();
+        updateMetaUpgrades();
+        updateDisplay();
+    } else {
+        // Pas de sauvegarde, initialiser valeurs par défaut
+        educationPoints = 0;
+        totalEarnedPoints = 0;
+        productionMultiplier = 1;
+        updateUpgrades();
+        updateMetaUpgrades();
+        updateDisplay();
+    }
+}
+
+window.onload = loadProgress;
+setInterval(saveProgress, 1000); // sauvegarde automatique chaque seconde
+
+
+function resetSave() {
+    localStorage.removeItem('myGameSave');
+    // Réinitialise aussi les variables en mémoire si besoin
+    educationPoints = 0;
+    totalEarnedPoints = 0;
+    productionMultiplier = 1;
+
+    // Remet à zéro les propriétés des upgrades
+    for (let key in upgrades) {
+        upgrades[key].owned = 0;
+        // Optionnel : remettre aussi le coût initial si tu en as besoin
+        upgrades[key].cost = initialCost[key];
+    }
+
+    // Remet à zéro les meta upgrades
+    for (let key in metaUpgrades) {
+        metaUpgrades[key].purchased = false;
+    }
+
+    // Mets à jour l'affichage après reset
+    updateUpgrades();
+    updateMetaUpgrades();
+    updateDisplay();
+}
+
+

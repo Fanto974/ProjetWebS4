@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Classe Clicker</title>
+    <link rel="stylesheet" href="../CSS/Base.css">
     <link rel="stylesheet" href="../CSS/Jeu.css">
     <script defer src="../JavaScript/Jeu.js"></script>
 </head>
 <body>
+<header>
+    <img src = "../Images/pleinObjEdu.jpg" alt = "GreenIT_img">
+    <nav>
+        <a href="./Acceuil.html" id="accueilLink">Accueil</a>
+        <a href="./ODD.html" id="oddLink">ODD</a>
+        <a href="./Annales.html" id="annalesLink">Annales</a>
+        <a href="./Contact.html" id="contactLink">Contacts</a>
+        <a href="./Jeu.html" id="gameLink">???</a>
+    </nav>
+</header>
+<div id="gameContainer">
 <!-- Colonne gauche -->
 <div id="sidebar">
     <div id="educationTracker">
@@ -20,10 +32,10 @@
 
 <!-- Colonne centrale -->
 <div id="mainContent">
-    <h1>🎓 Classe Clicker</h1>
     <div id="educationPoints">Points d'éducation : 0</div>
+    <div id="pts">Points/Sec</div>
     <button onclick="educate()">👩‍🏫 Former un élève (+1)</button>
-
+    <button id="reset" onclick="resetSave()">Reset</button>
     <div id="upgrades"></div>
 </div>
 
@@ -31,6 +43,7 @@
 <div id="metaUpgrades">
     <h3>🔧 Méta-Améliorations</h3>
     <div id="metaUpgradesList"></div>
+</div>
 </div>
 </body>
 </html>
