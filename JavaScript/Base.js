@@ -1,7 +1,7 @@
 window.onload = () => {
     const path = window.location.pathname;
 
-    if (path.includes("Acceuil.html")) {
+    if (path.includes("Accueil.html")) {
         document.getElementById("accueilLink").classList.add("active");
     } else if (path.includes("ODD.html")) {
         document.getElementById("oddLink").classList.add("active");
